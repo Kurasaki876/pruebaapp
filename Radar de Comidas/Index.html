@@ -134,7 +134,7 @@ react/cjs/react-jsx-runtime.production.js:
 <script>
   if ('serviceWorker' in navigator) {
     window.addEventListener('load', () => {
-      navigator.serviceWorker.register('./pwabuilder-sw')
+      navigator.serviceWorker.register('./pwabuilder-sw.js')
         .then((registration) => {
           console.log('Service Worker registrado con éxito, alcance: ', registration.scope);
         })
